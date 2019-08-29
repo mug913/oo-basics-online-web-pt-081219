@@ -10,9 +10,10 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
    
   def cobble 
-    binding.pry
+   
     puts "Your shoe is as good as new!" 
     @condition = "new"
+    binding.pry
   end 
   
 end
